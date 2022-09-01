@@ -1,0 +1,24 @@
+$black-color: rgb(24,24,24);
+$white-color: rgb(50, 50, 50);
+$textFont: Verdana, Geneva, Tahoma, sans-serif;
+
+@mixin squareStyle($margin, $border) {
+    background-color: rgb(211, 189, 67);
+    color:rgb(133, 133, 25);
+    padding:0px;
+    margin: $margin;
+    border: $border;
+    font-size: 100px;
+    align-items: center;
+    width: 150px;
+    height:150px;
+}
+
+@mixin buttonFocus {
+    border:none;
+    background-color: black;
+}
+
+@mixin buttonHover {
+    border: 2px solid rgb(223, 182, 0);
+}
