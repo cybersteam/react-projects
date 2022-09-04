@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './Styles/App.css'
 
 const Square = (props: any) => {
-  
   return(
     <button 
       className="square"
@@ -48,9 +47,12 @@ const Board = () => {
   const  status = `Next Player: ${xIsNext ?  '0' : '1'}`;
 
   return (
-    <div className="board">
-      <h2>zero's n one's game</h2>
-      <div className="status">{status}</div>
+    <main className="board">
+      <header>
+        <h2>zero's n one's game</h2>
+        <div className="status">{status}</div>
+      </header>
+      
       <div className="boardrow">
       {renderSquare(1)}{renderSquare(2)}{renderSquare(3)}
       </div>
@@ -60,14 +62,13 @@ const Board = () => {
       <div className="boardrow">
         {renderSquare(7)}{renderSquare(8)}{renderSquare(9)}
       </div>
-    </div>
+    </main>
   );
 };
 
 const App = () => {
   return(
   <div className="app">
-    
     <Board />
   </div>
   );

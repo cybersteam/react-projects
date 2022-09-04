@@ -10,13 +10,14 @@ $textFont: Verdana, Geneva, Tahoma, sans-serif;
     border: $border;
     font-size: 100px;
     align-items: center;
-    width: 150px;
-    height:150px;
+    width:15vw;
+    height:15vw;
 }
 
 @mixin buttonFocus {
     border:none;
     background-color: black;
+    color:blue;
 }
 
 @mixin buttonHover {

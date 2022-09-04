@@ -1,17 +1,19 @@
 @import "../Variables/variables.scss";
 
 #root {
-    max-width: 1280px;
+    max-width:100%;
     text-align: center;
 }
 
 .app {
+   
     display:flex;
     flex-direction: column;
     align-items: center;
   }
 
 .board {
+    width:60%;
     background-color: rgb(3, 80, 0);
     margin:10px;
     padding:20px;
@@ -19,6 +21,7 @@
     h2 {
         color:$black-color;
     }
+    align-items: center;
 }
 
 .status {
@@ -27,6 +30,7 @@
 }
 
 .boardrow {
+    width:100%;
     display:flex;
     flex-flow: row nowrap;
     background-color: rgb(6, 29, 0);
@@ -34,6 +38,7 @@
     border-radius: 5px 5px 0 0;
     margin-top: -5px;
     margin-bottom: -5px;
+    
 }
 
 .square {

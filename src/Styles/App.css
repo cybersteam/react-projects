@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   text-align: center;
 }
 
@@ -10,10 +10,12 @@
 }
 
 .board {
+  width: 60%;
   background-color: rgb(3, 80, 0);
   margin: 10px;
   padding: 20px;
   border-radius: 5px;
+  align-items: center;
 }
 .board h2 {
   color: rgb(24, 24, 24);
@@ -25,6 +27,7 @@
 }
 
 .boardrow {
+  width: 100%;
   display: flex;
   flex-flow: row nowrap;
   background-color: rgb(6, 29, 0);
@@ -42,13 +45,14 @@
   border: 3px solid #fff;
   font-size: 100px;
   align-items: center;
-  width: 150px;
-  height: 150px;
+  width: 15vw;
+  height: 15vw;
 }
 
 .square:focus {
   border: none;
   background-color: black;
+  color: blue;
 }
 
 .square:hover {

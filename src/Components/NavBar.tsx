@@ -1,8 +1,13 @@
 import "../Styles/NavBar.css"
+//import { Searchbar } from "./Dataview"
 
 export default function NavBar(){
     return(
-        <div className="navbar">
+        <nav className="navbar">
+            <div style={{color: "red", textAlign:"left"}}>
+               
+            </div>
+            
             <div className="links">
                 <a href="/home">Home</a>
                 <a href="/about"> About</a>
@@ -12,7 +17,7 @@ export default function NavBar(){
             </div>
             
 
-        </div>
+        </nav>
     )
 
 
