@@ -5,6 +5,7 @@ import './index.css'
 import NavBar from "./Components/NavBar"
 import Dataview from "./Components/Dataview"
 import Domctrl from "./Components/Domcntrl"
+import Alertbutton from "./Sandbox/Alertbutton"
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
@@ -13,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <App />
     <Dataview />
     <Domctrl />
+    <Alertbutton />
   </React.StrictMode>
-
 )
 
