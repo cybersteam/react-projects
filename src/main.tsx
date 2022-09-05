@@ -6,6 +6,8 @@ import NavBar from "./Components/NavBar"
 import Dataview from "./Components/Dataview"
 import Domctrl from "./Components/Domcntrl"
 import Alertbutton from "./Sandbox/Alertbutton"
+import Wrapped from "./Sandbox/Wrapped"
+import Closure from "./Sandbox/Closure"
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
@@ -14,7 +16,9 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <App />
     <Dataview />
     <Domctrl />
-    <Alertbutton />
+    <Alertbutton  />
+    <Wrapped />
+    <Closure />
   </React.StrictMode>
 )
 

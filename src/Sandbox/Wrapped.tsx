@@ -1,8 +1,6 @@
-
-
 // I don't know if any of this works or how:
 
-const myFunction = (props) => { 
+const myFunction = (props: any) => { 
     return(
         <div>
             <h2>Info</h2>
@@ -11,14 +9,17 @@ const myFunction = (props) => {
     );
 };
 
-const secondFunction = (WrappedComponent) => {
-    return(props) => {
+const secondFunction = (WrappedComponent: any) => {
+    return(props: any) => {
         <div>
             <p> Message 2 in other function.</p>
-            <WrappedComponent {...props}/>
+            <WrappedComponent {...props.info}/>
         </div>
     }
 }
-const secFunc= secondFunction(myFunction)
+
+const Wrapped = secondFunction(myFunction)
+
+export default Wrapped
 
 
