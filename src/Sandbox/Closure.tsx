@@ -1,22 +1,30 @@
+/// this is not a working piece of code
 
-const Closure = (callback: any) => {
+/* 
+
+
+const Closure = (props: any) => {
     setTimeout(() => {
-        callback({
-            title: 'hello there!'
+        person({
+            title: 'hello there!',
+            name: 'ivan'
         })
     }, 2000);
 
     setTimeout(() => {
-        callback({
-            title: 'very very'
+        props({
+            title: 'very very',
+            name: 'candy'
         })
     }, 4000);
 }
 
 Closure((callbk: any) => {
-    <p>{ callbk.title }</p>
+    <p>{ callbk.title }{ callbk.name }</p>
+   
 });
 
-export default Closure
+//export default Closure
 
 
+ */

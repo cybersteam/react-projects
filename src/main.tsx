@@ -7,7 +7,8 @@ import Dataview from "./Components/Dataview"
 import Domctrl from "./Components/Domcntrl"
 import Alertbutton from "./Sandbox/Alertbutton"
 import Wrapped from "./Sandbox/Wrapped"
-import Closure from "./Sandbox/Closure"
+//import Closure from "./Sandbox/Closure"
+import ClosuresInReact from './Sandbox/closureReact'
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
@@ -18,7 +19,8 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <Domctrl />
     <Alertbutton  />
     <Wrapped />
-    <Closure />
+   
+    <ClosuresInReact />
   </React.StrictMode>
 )
 
