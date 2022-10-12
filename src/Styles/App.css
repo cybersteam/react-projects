@@ -3,58 +3,7 @@
   text-align: center;
 }
 
-.app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.page {
+  margin-left:10px;
+  margin-top:10px;
 }
-
-.board {
-  width: 60%;
-  background-color: rgb(3, 80, 0);
-  margin: 10px;
-  padding: 20px;
-  border-radius: 5px;
-  align-items: center;
-}
-.board h2 {
-  color: rgb(24, 24, 24);
-}
-
-.status {
-  margin: 20px;
-  font-size: 24px;
-}
-
-.boardrow {
-  width: 100%;
-  display: flex;
-  flex-flow: row nowrap;
-  background-color: rgb(6, 29, 0);
-  padding: 5px;
-  border-radius: 5px 5px 0 0;
-  margin-top: -5px;
-  margin-bottom: -5px;
-}
-
-.square {
-  background-color: rgb(211, 189, 67);
-  color: rgb(133, 133, 25);
-  padding: 0px;
-  margin: 6px;
-  border: 3px solid #fff;
-  font-size: 100px;
-  align-items: center;
-  width: 15vw;
-  height: 15vw;
-}
-
-.square:focus {
-  border: none;
-  background-color: black;
-  color: blue;
-}
-
-.square:hover {
-  border: 2px solid rgb(223, 182, 0);
-}/*# sourceMappingURL=App.css.map */

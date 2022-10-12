@@ -3,7 +3,7 @@
   height: 80px;
   background-color: rgb(24, 24, 24);
   display: flex;
-  justify-content: flex-end;
+  justify-content: end;
   align-items: center;
 }
 
@@ -16,4 +16,15 @@
 
 .navbar .links {
   margin-right: 50px;
+  display: flex;
+  list-style: "|";
+  list-style-position: initial;
+}
+
+.navbar .links a {
+  color: pink;
+}
+
+.navbar .links a:hover {
+  color: red;
 }/*# sourceMappingURL=NavBar.css.map */

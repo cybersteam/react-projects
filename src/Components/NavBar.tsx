@@ -1,24 +1,32 @@
 import "../Styles/NavBar.css"
-//import { Searchbar } from "./Dataview"
-
-export default function NavBar(){
-    return(
-        <nav className="navbar">
-            <div style={{color: "red", textAlign:"left"}}>
-               
-            </div>
-            
-            <div className="links">
-                <a href="/home">Home</a>
-                <a href="/about"> About</a>
-                <a href="/contact">Contact</a>
-                <a href="/faq">FAQ</a>
-                <a href="/fun">Fun</a>
-            </div>
-            
-
-        </nav>
-    )
 
 
+function NavBar () {
+    return (     
+                <nav className="navbar">
+                   
+                    <ul className="links">
+                        <li>
+                        <a href="/">Home</a>
+                        </li>
+                        <li>
+                        <a href="/hooks">Hooks</a>
+                        </li>
+                        <li>
+                        <a href="/zero-one">Zero One</a>
+                        </li>
+                        <li>
+                        <a href="/animations">Animations</a>
+                        </li>
+                        <li>
+                        <a href="/desert_rats_adventures">DRat</a>
+                        </li>
+                        <li>
+                        <a href="/interface_modules">UI Modules</a>
+                        </li>
+                    </ul>   
+                </nav>
+            )
 }
+
+export default NavBar
