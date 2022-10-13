@@ -4,7 +4,6 @@ import "../Styles/NavBar.css"
 function NavBar () {
     return (     
                 <nav className="navbar">
-                   
                     <ul className="links">
                         <li>
                         <a href="/">Home</a>

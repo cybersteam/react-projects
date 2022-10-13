@@ -1,8 +1,9 @@
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Landing from "../Pages/Landing";
 import TicTac from "../Pages/ticTac";
-import Game from "../Pages/theGame"
+import TheGame from "../Pages/theGame"
 import Hooks from "../Pages/Hooks"
+import UiComps from '../Pages/UiComps';
 
 const RouteLogic = () => {
     return ( 
@@ -12,8 +13,8 @@ const RouteLogic = () => {
                         <Route path="/hooks" element={<Hooks />} />
                         <Route path="/zero-one" element={<TicTac />} />
                         <Route path="/animations" element={<TicTac />} />
-                        <Route path="/desert_rats_adventures" element={<Game />} />
-                        <Route path="/interface_modules" element={<TicTac />} />
+                        <Route path="/desert_rats_adventures" element={<TheGame />} />
+                        <Route path="/interface_modules" element={<UiComps />} />
                         <Route path="/skater-up" element={<TicTac />} />
                 </Routes>  
             </BrowserRouter>

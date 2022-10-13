@@ -3,9 +3,9 @@ import '../Styles/App.css'
 const Landing = () => {
     return (
         <div className = "page">
-            Welcome to the CT lab.
+            This is a fun place to be
             <br></br>
-            Here you can explore our world of interactive digital prototypes.
+            Explore a thing
         </div>
     )
 }

@@ -1,16 +1,18 @@
-import React from "react";
+import React, { useReducer } from "react";
 import { useState } from "react";
+import UseEffectHook from "../Components/UseEffect";
+import UseTheState from "../Components/UseStateHook";
+import UseTheReducer from "../Components/UseTheReducer";
+
+
 
 const Hooks = () => {
-    const [counter, setCounter] = useState(0);
-
-    const increment = () => {
-        setCounter(counter + 1)
-        console.log(counter)
-    }
+    
     return (
         <div>
-            {counter} <button onClick={increment} >Press me</button>
+            <UseTheState />
+            <UseTheReducer />
+            <UseEffectHook />
         </div>
     )
 }

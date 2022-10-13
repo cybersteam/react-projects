@@ -22,7 +22,7 @@ const Domcntrl = () => {
                     <button onClick={() => nameInput.current.value=""}>Clear the field.</button>
                     <ul>
                         <li>
-                            helo click it
+                            helo click it (and check the console)
                         </li>
                     </ul>
                 </div>

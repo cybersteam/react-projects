@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gumgum/react-script-tag": "^0.0.3",
+    "axios": "^1.1.2",
     "embed-js": "^5.0.4",
     "phaser": "^3.55.2",
     "react": "^18.2.0",

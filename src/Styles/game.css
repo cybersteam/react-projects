@@ -1,12 +1,8 @@
 
 
-canvas {
-    width: auto;
-    height:40vw;
-    position: fixed;
-  top: 150px;
-  left: 35vw;
-  margin-top: -50px;
-  margin-left: -200px;
+.phasergame {
+   text-align:center;
+   margin-left:100px;
+   width:100%;
 }
 
