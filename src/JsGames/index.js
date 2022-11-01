@@ -1,7 +1,9 @@
 var config = {
     type: Phaser.AUTO,
-    width: 800,
-    height: 500,
+    width:800,
+    height:500,
+    margin:20,
+   
    
     physics: {
         default: 'arcade',
@@ -35,6 +37,7 @@ var startButt;
 //var button;
 
 game = new Phaser.Game(config);
+//game.className += "phasergame";
 
 class Button {
     constructor(x, y, label, scene, callback) {
@@ -53,7 +56,7 @@ class Button {
 
 function preload ()
 {
-    
+    //this.load.css('headers', '/src/Styles/game.css');
     this.load.image('sky', '/src/JsGames/assets/level2sky.png');
     this.load.image('ground', '/src/JsGames/assets/platform.png');
     this.load.image('star', '/src/JsGames/assets/star.png');
@@ -160,14 +163,17 @@ function create ()
 
     this.physics.add.collider(player, bombs, hitBomb, null, this);
     
+     /* whatever properties you want to give it */
+    /*
     var evt = new MouseEvent("click", {
     view: window,
     bubbles: true,
     cancelable: true,
     clientX: 20,
-    /* whatever properties you want to give it */
+   
     });
     Phaser.Game(evt);
+    */
     
     // the audio
     this.played = this.sound.add('audiodao');

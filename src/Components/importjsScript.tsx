@@ -7,29 +7,23 @@ import "../Styles/game.css"
 
 const LoadPhaser = () => {
     return(
-        <div>
-            <Script src="//cdn.jsdelivr.net/npm/phaser@3.11.0/dist/phaser.js" />
+        <div >
+            <Script type= "text/javascript" src="//cdn.jsdelivr.net/npm/phaser@3.11.0/dist/phaser.js" />
         </div>
     )
     
 }
 
 const ImportJsScript = () => {
-    
-    
     return(
-        <div className="phasergame">
+        <div >
             <LoadPhaser />
             <Script 
-            type="text/javascript" 
-            src="/src/JsGames/index.js"
-            
+                type="text/javascript" 
+                src="/src/JsGames/index.js"
             />
-           
         </div>
-
     )
-    
 }
 
 const CreateGame = () => {

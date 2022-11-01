@@ -4,7 +4,7 @@ import "../Styles/game.css"
 
 const TheGame = () => { 
     return(
-        <div className="phasergame">
+        <div >
             <CreateGame />
         </div>
     )

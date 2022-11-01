@@ -12,6 +12,7 @@ const Domcntrl = () => {
     });
     
             //nameInput.current.value = "";
+            //<button onClick={() => nameInput.current.value =" "}>Clear the field.</button>
 
     return(
         <div className="holder">
@@ -19,7 +20,7 @@ const Domcntrl = () => {
             <button onClick={() => setIsCircle(!isCircle)}>Change the Shape</button>
                 <div>
                     <input type="text" placeholder="Your text" ref={nameInput}></input>
-                    <button onClick={() => nameInput.current.value=""}>Clear the field.</button>
+                    
                     <ul>
                         <li>
                             helo click it (and check the console)
